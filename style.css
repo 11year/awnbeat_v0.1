@@ -1,0 +1,31 @@
+/* Base resets and smooth transitions */
+* {
+    transition: all 0.25s ease;
+}
+
+/* Hero gradient background fix (optional if using Tailwind only) */
+.hero-gradient {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Category cards hover effect */
+.category-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Smooth scrolling for anchor links */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Optional custom fonts (you can remove if not needed) */
+body {
+    font-family: sans-serif;
+}
+
+/* If you ever want to adjust the video manually */
+video {
+    max-width: 100%;
+    border-radius: 1rem;
+}
