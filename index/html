@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awnbeat - Your Rhythm to Wellness</title>
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Feather Icons -->
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <!-- Tailwind Custom Colors -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#caea61',
+                        secondary: '#F9C80E',
+                        tertiary: '#FF4E50',
+                        dark: '#0E0B16',
+                        light: '#F5F5F5'
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="font-sans antialiased text-dark bg-light">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0 flex items-center">
+                        <img src="https://www.dropbox.com/scl/fi/eu1ztaih5k6gewtpnps6g/AWNBEATLOGO.png?rlkey=8f6loy6gumeyvzjuwa8sveknz&st=nssh7p6y&dl=0" class="h-8 w-auto" alt="Awnbeat Logo">
+                    </div>
+                </div>
+                <div class="hidden md:ml-6 md:flex md:items-center md:space-x-8">
+                    <a href="#" class="text-gray-900 hover:text-primary px-3 py-2 text-sm font-medium">Discover</a>
+                    <a href="#" class="text-gray-500 hover:text-primary px-3 py-2 text-sm font-medium">Locations</a>
+                    <a href="#" class="text-gray-500 hover:text-primary px-3 py-2 text-sm font-medium">Memberships</a>
+                </div>
+                <div class="flex items-center">
+                    <a href="https://form.typeform.com/to/zHY7jn9S" class="ml-4 bg-secondary text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-opacity-90 transition-all">Join Free</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient py-20 bg-gradient-to-br from-primary/5 to-secondary/5">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:grid lg:grid-cols-2 lg:gap-8 items-center">
+                <div class="mb-12 lg:mb-0">
+                    <h1 class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
+                        <span class="block">Health Made Easy</span>
+                        <span class="block text-primary text-[#caea61]">with Awnbeat</span>
+                    </h1>
+                    <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+                        Fitness, wellness, & nutritional selections for you & around you at the touch of a button.
+                    </p>
+                    <div class="mt-8 sm:flex sm:justify-center lg:justify-start">
+                        <div class="rounded-md shadow">
+                            <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primary hover:bg-opacity-90 md:py-4 md:text-lg md:px-10 transition-all">
+                                Learn About Awnbeat
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative">
+                <video class="rounded-lg shadow-xl"
+                    src="https://www.dropbox.com/scl/fi/5jph8u9qe3mm3o011ch7f/website_video.mp4?rlkey=asl6yr7sftmg7a3bkyhr12lcb&st=7y4epp7z&dl=1"
+                    autoplay
+                    loop
+                     muted
+                    playsinline
+                    controls>
+</video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="py-16 bg-white border-t border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:text-center">
+                <h2 class="text-base text-primary font-semibold tracking-wide uppercase">How it works</h2>
+                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    Just 3 simple steps
+                </p>
+            </div>
+            <div class="mt-10">
+                <div class="grid grid-cols-1 gap-10 md:grid-cols-3">
+                    <div class="text-center">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-primary text-white mx-auto">
+                            <i data-feather="search"></i>
+                        </div>
+                        <h3 class="mt-5 text-lg leading-6 font-medium text-gray-900">1. Discover</h3>
+                        <p class="mt-2 text-base text-gray-500">
+                            Browse thousands of health experiences near you to your personal liking.
+                        </p>
+                    </div>
+                    <div class="text-center">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-primary text-white mx-auto">
+                            <i data-feather="calendar"></i>
+                        </div>
+                        <h3 class="mt-5 text-lg leading-6 font-medium text-gray-900">2. Book</h3>
+                        <p class="mt-2 text-base text-gray-500">
+                            Reserve your spot with just a few taps. No commitments, cancel anytime.
+                        </p>
+                    </div>
+                    <div class="text-center">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-primary text-white mx-auto">
+                            <i data-feather="heart"></i>
+                        </div>
+                        <h3 class="mt-5 text-lg leading-6 font-medium text-gray-900">3. Enjoy</h3>
+                        <p class="mt-2 text-base text-gray-500">
+                            Show up and experience something new. Repeat what you love!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="py-16 bg-gray-50 border-t border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:text-center mb-12">
+                <h2 class="text-base text-primary font-semibold tracking-wide uppercase">Categories</h2>
+                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    Explore what moves you
+                </p>
+            </div>
+            <div class="grid grid-cols-1 gap-8 md:grid-cols-3">
+                <!-- Fitness Card -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden category-card transition-all hover:shadow-lg">
+                    <img src="https://www.dropbox.com/scl/fi/27fdapsk95yqfhw58saet/web-fit.jpg?rlkey=lr8poqn5s9qfptn3b7irg5b26&st=otjkt2xs&dl=0" alt="Fitness" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex items-center">
+                            <div class="flex-shrink-0 bg-primary rounded-md p-2">
+                                <i data-feather="activity" class="h-6 w-6 text-white"></i>
+                            </div>
+                            <h3 class="ml-3 text-lg font-medium text-gray-900">Fitness</h3>
+                        </div>
+                        <p class="mt-4 text-base text-gray-500">
+                            From HIIT to yoga, boxing to barre - find your perfect workout across thousands of studios.
+                        </p>
+                        <div class="mt-6">
+                            <a href="#" class="text-primary font-medium hover:text-opacity-80 transition-all">Explore fitness <span aria-hidden="true">→</span></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Wellness Card -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden category-card transition-all hover:shadow-lg">
+                    <img src="https://www.dropbox.com/scl/fi/v6ekve3rpuo3rlyj61zpj/web-wellness.jpg?rlkey=dy7q2e7je6pa177ld3arck2ci&st=15t1sx2e&dl=0" alt="Wellness" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex items-center">
+                            <div class="flex-shrink-0 bg-secondary rounded-md p-2">
+                                <i data-feather="umbrella" class="h-6 w-6 text-white"></i>
+                            </div>
+                            <h3 class="ml-3 text-lg font-medium text-gray-900">Wellness</h3>
+                        </div>
+                        <p class="mt-4 text-base text-gray-500">
+                            Massage, acupuncture, float therapy and more to help you recover and recharge.
+                        </p>
+                        <div class="mt-6">
+                            <a href="#" class="text-primary font-medium hover:text-opacity-80 transition-all">Explore wellness <span aria-hidden="true">→</span></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Nutrition Card -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden category-card transition-all hover:shadow-lg">
+                    <img src="https://www.dropbox.com/scl/fi/cp4drwtu2zm9u4ix7xo10/web-nutrition.jpg?rlkey=xro6v69f9mm60jdjbtbtobra1&st=4xytsaw8&dl=0" alt="Nutrition" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex items-center">
+                            <div class="flex-shrink-0 bg-green-500 rounded-md p-2">
+                                <i data-feather="heart" class="h-6 w-6 text-white"></i>
+                            </div>
+                            <h3 class="ml-3 text-lg font-medium text-gray-900">Nutrition</h3>
+                        </div>
+                        <p class="mt-4 text-base text-gray-500">
+                            Meal planning, cooking classes, and nutrition coaching to fuel your best self.
+                        </p>
+                        <div class="mt-6">
+                            <a href="#" class="text-primary font-medium hover:text-opacity-80 transition-all">Explore nutrition <span aria-hidden="true">→</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="bg-gradient-to-r from-primary to-primary/90 text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">
+                Ready to find your rhythm?
+            </h2>
+            <p class="mt-3 max-w-2xl mx-auto text-xl sm:mt-4">
+                Join thousands of members discovering new ways to move, recover, and nourish.
+            </p>
+            <div class="mt-8 flex justify-center">
+                <div class="inline-flex rounded-md shadow">
+                    <a href="#" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-primary bg-white hover:bg-gray-50 transition-all">
+                        Get started today
+                    </a>
+                </div>
+                <div class="ml-3 inline-flex">
+                    <a href="#" class="inline-flex items-center justify-center px-5 py-3 border border-2 border-white text-base font-medium rounded-md text-white hover:bg-white hover:bg-opacity-10 transition-all">
+                        Learn more
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white border-t border-gray-700">
+        <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-sm font-semibold text-secondary tracking-wider uppercase">Company</h3>
+                    <ul class="mt-4 space-y-4">
+                        <li><a href="#" class="text-base text-gray-300 hover:text-secondary transition-all">About</a></li>
+                        <li><a href="#" class="text-base text-gray-300 hover:text-secondary transition-all">Careers</a></li>
+                        <li><a href="#" class="text-base text-gray-300 hover:text-secondary transition-all">Press</a></li>
+                        <li><a href="#" class="text-base text-gray-300 hover:text-secondary transition-all">Blog</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-sm font-semibold text-secondary tracking-wider uppercase">Support</h3>
+                    <ul class="mt-4 space-y-4">
+                        <li><a href="#" class="text-base text-gray-300 hover:text-secondary transition-all">Help Center</a></li>
+                        <li><a href="#" class="text-base text-gray-300 hover:text-secondary transition-all">Safety</a></li>
+                        <li><a href="#" class="text-base text-gray-300 hover:text-secondary transition-all">Community</a></li>
+                        <li><a href="#" class="text-base text-gray-300 hover:text-secondary transition-all">Guidelines</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-sm font-semibold text-secondary tracking-wider uppercase">Legal</h3>
+                    <ul class="mt-4 space-y-4">
+                        <li><a href="#" class="text-base text-gray-300 hover:text-secondary transition-all">Privacy</a></li>
+                        <li><a href="#" class="text-base text-gray-300 hover:text-secondary transition-all">Terms</a></li>
+                        <li><a href="#" class="text-base text-gray-300 hover:text-secondary transition-all">Cookie Policy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-sm font-semibold text-secondary tracking-wider uppercase">Connect</h3>
+                    <ul class="mt-4 space-y-4">
+                        <li class="flex space-x-6">
+                            <a href="#" class="text-gray-400 hover:text-secondary transition-all"><i data-feather="facebook"></i></a>
+                            <a href="#" class="text-gray-400 hover:text-secondary transition-all"><i data-feather="twitter"></i></a>
+                            <a href="#" class="text-gray-400 hover:text-secondary transition-all"><i data-feather="instagram"></i></a>
+                            <a href="#" class="text-gray-400 hover:text-secondary transition-all"><i data-feather="linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-12 border-t border-gray-700 pt-8">
+                <p class="text-base text-gray-400 text-center">
+                    &copy; 2023 Awnbeat, Inc. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
