@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 .claude/skills/ui-ux-pro-max/scripts/search.py \"animation horizontal scroll parallax hero\" --domain ux)",
+      "Bash(python3 .claude/skills/ui-ux-pro-max/scripts/search.py \"landing page hero community\" --domain landing)",
+      "Bash(python3 .claude/skills/ui-ux-pro-max/scripts/search.py \"nextjs tailwind responsive landing page\" --stack nextjs)",
+      "Bash(npx create-next-app@14 . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-git)",
+      "Bash(npx create-next-app@14 awnbeat --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-git)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(pkill -f \"next dev\")",
+      "Bash(curl -s http://localhost:3000)",
+      "Bash(curl -s \"http://localhost:3000/_next/static/css/app/layout.css?v=1781141479455\")",
+      "Bash(curl -s http://localhost:3000/_next/static/css/app/layout.css)",
+      "Bash(curl -s \"http://localhost:3000/_next/static/css/app/layout.css?v=1781142761642\")",
+      "Bash(pkill -f \"next\")",
+      "Bash(curl -s \"http://localhost:3000/_next/static/css/app/layout.css?v=1781143175779\")",
+      "Bash(curl -s \"http://localhost:3000/_next/static/css/app/layout.css?v=1781144398433\")",
+      "Bash(curl -s \"http://localhost:3000/_next/static/css/app/layout.css?v=1781144471904\")",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(kill 82921)",
+      "Bash(echo \"PID: $!\")",
+      "Bash(sleep 4 && cat /tmp/awnbeat-dev.log)",
+      "Bash(node -e \"const l = require\\('lucide-react'\\); console.log\\('Instagram:', !!l.Instagram, 'Linkedin:', !!l.Linkedin\\)\")"
+    ]
+  }
+}
